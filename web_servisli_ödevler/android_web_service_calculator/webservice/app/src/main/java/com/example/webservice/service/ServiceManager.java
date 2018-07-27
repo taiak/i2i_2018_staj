@@ -28,21 +28,16 @@ public class ServiceManager {
         soapObject.addProperty("y", Double.parseDouble(secondNumber));
         soapObject.addProperty("operation", operation);
 
-        System.out.println("YASIR SAID: buraya gada başarılı!");
         httpTransportSE = new HttpTransportSE(URL);
         httpTransportSE.debug = true;
 
         try {
             httpTransportSE.call(SOAP_ACTION, soapSerializationEnvelope);
-            System.out.println("YASIR SAID: Burda da çalışıyor!");
             SoapPrimitive soapPrimitive = (SoapPrimitive) soapSerializationEnvelope.getResponse();
-            System.out.println("YASIR SAID: Ha burda da çalışıyo!");
             returnedData = soapPrimitive.toString();
-            System.out.println("YASIR SAID: calculator returned data:" + returnedData);
 
         } catch (Exception ex) {
             System.out.println("SIMON SAID: exception is: " + ex);
-            System.out.println("YASIR SAID: GET THE FUCK UP SIMON!");
         }
 
         return returnedData;

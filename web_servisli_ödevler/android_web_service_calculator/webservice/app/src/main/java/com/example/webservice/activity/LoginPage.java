@@ -45,7 +45,7 @@ public class LoginPage extends AppCompatActivity {
                     calculator.execute(firstNumber, secondNumber, operation);
 
                 } catch(Exception ex){
-                    System.out.println("YASIR SAID: WTF SIMON! Exception is: " + ex);
+                    System.out.println("YASIR SAID:Exception is: " + ex);
 
                 }
                     // LoginAsyncTask login = new LoginAsyncTask();
