@@ -12,7 +12,7 @@ import android.widget.TextView;
 import com.example.webservice.R;
 import com.example.webservice.service.ServiceManager;
 
-
+// delete history
 public class LoginPage extends AppCompatActivity {
 
     Button btnLogin;
