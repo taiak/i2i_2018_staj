@@ -1,0 +1,1 @@
+Uygulama her bilgisayarda çalışmayabilir. Fakat kütüphaneleri ve içinde yazan kod çalışmakta. Eğer ki yeni bir proje içerisinde başlatırsanız çalışacaktır

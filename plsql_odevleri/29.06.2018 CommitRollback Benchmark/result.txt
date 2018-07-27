@@ -1,0 +1,28 @@
+ROLLBACK: 100 value INSERT TIME : 0 second
+COMMIT:   100 value INSERT TIME : 0 second
+ROLLBACK: 100 value UPDATE TIME : 0 second
+COMMIT:   100 value UPDATE TIME : 0 second
+ROLLBACK: 100 value DELETE TIME : 0 second
+COMMIT:   100 value DELETE TIME : 0 second
+SEQUENCE TIME : 2,88 second
+ROLLBACK: 1000 value INSERT TIME : ,01 second
+COMMIT:   1000 value INSERT TIME : 0 second
+ROLLBACK: 1000 value UPDATE TIME : ,01 second
+COMMIT:   1000 value UPDATE TIME : 0 second
+ROLLBACK: 1000 value DELETE TIME : 0 second
+COMMIT:   1000 value DELETE TIME : 0 second
+SEQUENCE TIME : 28,9 second
+ROLLBACK: 10000 value INSERT TIME : ,05 second
+COMMIT:   10000 value INSERT TIME : 0 second
+ROLLBACK: 10000 value UPDATE TIME : ,06 second
+COMMIT:   10000 value UPDATE TIME : 0 second
+ROLLBACK: 10000 value DELETE TIME : ,05 second
+COMMIT:   10000 value DELETE TIME : 0 second
+SEQUENCE TIME : 286,85 second
+ROLLBACK: 100000 value INSERT TIME : 2,06 second
+COMMIT:   100000 value INSERT TIME : 0 second
+ROLLBACK: 100000 value UPDATE TIME : ,53 second
+COMMIT:   100000 value UPDATE TIME : 0 second
+ROLLBACK: 100000 value DELETE TIME : ,5 second
+COMMIT:   100000 value DELETE TIME : ,01 second
+SEQUENCE TIME : 3054,22 second

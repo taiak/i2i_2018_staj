@@ -1,0 +1,17 @@
+DELETE TIME : 17,06 second
+
+---------- WITH INDEX ----------
+
+INSERT TIME : 62,5 second
+
+SELECT TIME : 0 second
+
+DELETE TIME : 15,54 second
+
+---------- WITHOUT INDEX ----------
+
+INSERT TIME : 32,54 second
+
+SELECT TIME : ,09 second
+
+DELETE TIME : 16,88 second
